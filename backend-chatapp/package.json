@@ -1,0 +1,29 @@
+{
+  "name": "backend-chatapp",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.75",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-router": "^0.0.1",
+    "mongoclient": "^1.0.3",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.1",
+    "multer": "^1.4.5-lts.1",
+    "next": "^14.1.4",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "typescript": "^5.4.4"
+  }
+}
